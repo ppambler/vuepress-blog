@@ -1,10 +1,12 @@
 {
-  "name": "vuepress",
+  "name": "my-blog",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:ppambler/vuepress-blog.git",
+  "author": "Ambler <allinlbj@gmail.com>"
 }
