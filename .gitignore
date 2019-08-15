@@ -2,4 +2,5 @@ docs/.vuepress/
 node_modules/
 .vscode/
 yarn-error.log
+dist
 

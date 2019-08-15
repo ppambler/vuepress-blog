@@ -8,5 +8,9 @@
   },
   "license": "MIT",
   "repository": "git@github.com:ppambler/vuepress-blog.git",
-  "author": "Ambler <allinlbj@gmail.com>"
+  "author": "Ambler <allinlbj@gmail.com>",
+  "dependencies": {
+    "blueimp-md5": "^2.11.1",
+    "gitalk": "^1.5.0"
+  }
 }
