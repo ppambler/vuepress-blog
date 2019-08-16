@@ -90,11 +90,15 @@ md.render('[ ] unchecked') // =>
 }
 ```
 
-至于渲染，vuepress遇到下边这样的语法，就会渲染成这样  [ ] unchecked
+至于渲染，vuepress遇到下边这样的语法：
 
 ```md
 [ ] unchecked
 ```
+
+就会渲染成这样：
+
+[ ] unchecked
 
 ::: warning
 
@@ -118,6 +122,19 @@ md.render('[ ] unchecked') // =>
 
 **➹：**[使用 markdown-it 解析 markdown 代码（读 VuePress 三） - 掘金](https://juejin.im/post/5bbccf3cf265da0aee3f317b#heading-12)
 
+## ③基于Vuepress的markdown书写规范？
+
+**①CheckBox**
+
+**Input**
+
+```md
+不要在 [ ] checkbox 前边写上文字，不然这些文字将不会被渲染！
+```
+
+**Output**
+
+![1565948366183](./public/00/1565948366183.png)
 
 
 
