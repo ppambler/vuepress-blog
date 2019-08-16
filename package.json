@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:d": "vuepress dev docs",
+    "docs:b": "vuepress build docs"
   },
   "license": "MIT",
   "repository": "git@github.com:ppambler/vuepress-blog.git",
   "author": "Ambler <allinlbj@gmail.com>",
   "dependencies": {
     "blueimp-md5": "^2.11.1",
-    "gitalk": "^1.5.0"
+    "gitalk": "^1.5.0",
+    "markdown-it-checkbox": "^1.1.0"
   }
 }
