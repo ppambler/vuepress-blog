@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.jpg
 actionText: 进来看看呗→
-actionLink: /zh/guide/
+actionLink: /
 features:
 
 - title: Why
